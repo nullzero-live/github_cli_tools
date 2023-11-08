@@ -1,6 +1,6 @@
 # Nullzero's GitHub Action CLI Tool :hammer_and_wrench:
 
-Welcome to Nullzero's GitHub Action CLI Tool – your new sidekick for streamlining GitHub actions right from your command line! This tool is a part of the DependMLOps project, which is all about orchestrating your MLOps tools seamlessly. As of 8th November 2023, its become an official side project huzzah. :tada:
+Welcome to Nullzero's GitHub Action CLI Tool – This tool is a part of the DependMLOps project, which is all about orchestrating your MLOps tools seamlessly. As of 8th November 2023, its become an official side project huzzah. :tada:
 
 ## Status
 **Under Development** :construction: – We're actively coding away to bring you the most handy features for your development workflow.
@@ -23,7 +23,7 @@ Welcome to Nullzero's GitHub Action CLI Tool – your new sidekick for streamlin
 
 ## Installation :wrench:
 
-To install Nullzero's GitHub Action CLI Tool in developer mode, follow these steps:
+To install the GitHub Action CLI Tool in developer mode, follow these steps:
 
 1. Clone the repository:
 ```bash
@@ -34,11 +34,9 @@ cd nullzero-cli
 ```bash
 pip install -e .
 
-```
 
 
-
-### Modules within module building? Unacceptable!!!! :rocket: :rocket :rocket:
+### Modules within module building? Unacceptable!!!! :rocket: :rocket: :rocket:
 
 -- Nullzero
 
