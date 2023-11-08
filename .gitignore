@@ -3,6 +3,7 @@
 env*
 env/
 gh2/
+tree/
 
 
 # Byte-compiled / optimized / DLL files
