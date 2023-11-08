@@ -2,6 +2,8 @@
 
 Welcome to Nullzero's GitHub Action CLI Tool – This tool is a part of the DependMLOps project, which is all about orchestrating your MLOps tools seamlessly. As of 8th November 2023, its become an official side project huzzah. :tada:
 
+What is working so far? Auth, and a basic flow to handle a text file and dump it into a json.
+
 ## Status
 **Under Development** :construction: – We're actively coding away to bring you the most handy features for your development workflow.
 
