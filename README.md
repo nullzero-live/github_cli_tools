@@ -29,11 +29,13 @@ To install the GitHub Action CLI Tool in developer mode, follow these steps:
 ```bash
 git clone https://github.com/your-username/nullzero-cli.git
 cd nullzero-cli
+```
 
 2. Install the package in editable mode using setup.cfg: 
+
 ```bash
 pip install -e .
-
+```
 
 
 ### Modules within module building? Unacceptable!!!! :rocket: :rocket: :rocket:
