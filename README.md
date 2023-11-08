@@ -1,4 +1,4 @@
-# Nullzero's GitHub Action CLI Tool :hammer_and_wrench:
+# GitHub Action CLI Tool :hammer_and_wrench:
 
 Welcome to Nullzero's GitHub Action CLI Tool – This tool is a part of the DependMLOps project, which is all about orchestrating your MLOps tools seamlessly. As of 8th November 2023, its become an official side project huzzah. :tada:
 
