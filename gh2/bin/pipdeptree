@@ -1,8 +1,0 @@
-#!/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/NZ_MODULES/gh_2do/gh2/bin/python3
-# -*- coding: utf-8 -*-
-import re
-import sys
-from pipdeptree.__main__ import main
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(main())
