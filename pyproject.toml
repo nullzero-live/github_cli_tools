@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gh2do"
+authors = [
+    {name = "Nullzero", email = "p4rlx-news@pm.me"},
+]
+description = "custoom cli for pairing with GH Actions"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["github", "cli"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "pipdeptree==2.13.0",
+    "pyGithub==2.1.1", 
+    "pytest==7.4.3",
+    "pytest-asyncio==0.21.1",
+    "pytest-mock==3.12.0",
+    "python-dotenv==1.0.0",
+    "toml==0.10.2",
+    "Tree==0.2.4",
+    "requests",
+    'importlib-metadata'
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+pdf = ["ReportLab>=1.2", "RXP"]
+rest = ["docutils>=0.3", "pack ==1.1, ==1.3"]
+
+[project.scripts]
+my-script = "gh2do.main:main"
+
+# ... other project metadata fields as specified in:
+#     https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
